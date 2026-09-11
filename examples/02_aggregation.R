@@ -1,9 +1,12 @@
 # Example 2
 
+# Load library
 library(tidyverse)
 
+# Load data
 video_view <- read_csv("data/video_view.csv")
 
+# Summarize content per creator 
 creator_example <- video_view %>%
   group_by(creator_id) %>%
   summarise(
