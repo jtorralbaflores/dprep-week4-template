@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # Load the data
-video_view <- read_csv("video_view.csv")
+video_view <- read_csv("data/video_view.csv")
 
 # Inspect the data
 video_view %>%
@@ -12,8 +12,8 @@ video_view %>%
 
 # ---- Data preview at the event level
 
-impressions <- read_csv("impressions.csv")
-watch_events <- read_csv("watch_events.csv")
+impressions <- read_csv("data/impressions.csv")
+watch_events <- read_csv("data/watch_events.csv")
 
 impressions %>%
   select(impression_id, session_id, user_id, video_id, creator_id, shown_at) %>%
