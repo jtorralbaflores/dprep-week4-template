@@ -46,7 +46,7 @@ that get you there. When you are stuck:
 Solutions are in the slide deck, at the end. Use them only if you are truly blocked; reading
 the answer before you have struggled a little is the fastest way to not learn this.
 
-## What you hand in
+## What you practice today
 
 Two merged pull requests in your own repository:
 
