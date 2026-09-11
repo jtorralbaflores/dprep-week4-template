@@ -7,12 +7,7 @@ commit your work in two branches, and merge both through pull requests.
 
 1. **Use this template** on GitHub to create your own repository (do not fork).
 2. Clone your new repository and open it in Positron/VS Code.
-3. Download the data:
-
-```r
-source("download_data.R")
-```
-
+3. Download the data
 4. Open `src/data_engineering.R` and start at Exercise 1.
 
 ## How this repo is organised
